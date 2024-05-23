@@ -3,11 +3,10 @@
 try
 {
     // BasicUse.Show();
-
-
-
-    Console.WriteLine(" Press enter to exit");
-    Console.ReadLine();
+    //QueueMsgAck.Show();
+    BasicGet.Show();
+    //PriorityQueue.Show();
+    //DeadletterQueue.Show();
 
 }
 catch(Exception ex)

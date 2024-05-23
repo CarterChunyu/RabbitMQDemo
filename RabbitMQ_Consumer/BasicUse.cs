@@ -48,7 +48,9 @@ namespace RabbitMQ_Consumer
                             autoAck: true,
                             consumer: consumer);
 
-                        
+                        Console.WriteLine(" Press enter to exit");
+                        Console.ReadLine();
+
                     }
                     catch(Exception ex)
                     {
